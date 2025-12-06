@@ -1,0 +1,19 @@
+body { background:#0d1117; font-family:poppins, sans-serif; color:white; text-align:center; }
+h1,h2,h3 { margin:10px; }
+
+.screen { display:block; margin-top:60px; }
+.hidden { display:none; }
+
+input { padding:8px; margin:8px; border-radius:6px; border:none; }
+button {
+  background:#2ecc71; border:none; padding:8px 18px; border-radius:6px;
+  font-weight:bold; cursor:pointer; margin-top:8px;
+}
+button:hover { filter:brightness(1.1); }
+
+#matchList div {
+  background:#161b22; margin:6px auto; padding:10px;
+  width:300px; border-radius:8px;
+}
+
+.stats { display:flex; justify-content:center; gap:20px; }
